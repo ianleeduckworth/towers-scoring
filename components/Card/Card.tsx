@@ -25,7 +25,7 @@ export const Card = ({ gameName, date, onGamePress: onGamePress, onExitPress }: 
 
 const styles = StyleSheet.create({
     container: {
-        width: '100%',
+        minWidth: '100%',
         height: 100,
         backgroundColor: defaults.lightGray,
         paddingLeft: 20,

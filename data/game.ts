@@ -11,12 +11,14 @@ export type Round = {
     player4?: Player;
 }
 
+export type Players = {
+    player1: string;
+    player2: string;
+    player3?: string;
+    player4?: string;
+}
+
 export type Game = {
-    players: {
-        player1: string;
-        player2: string;
-        player3?: string;
-        player4?: string;
-    },
+    players: Players,
     rounds: Round[];
 }

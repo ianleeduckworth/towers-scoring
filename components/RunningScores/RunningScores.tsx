@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import { Game } from '../../data/game';
-import { defaults } from '../../styles/global';
+import { defaults, globalStyles } from '../../styles/global';
 import { calculateScore } from '../../utilities/scoreCalculator/scoreCalculator';
 
 interface RunningScoreProps {
@@ -32,23 +32,23 @@ export const RunningScores = ({ game }: RunningScoreProps) => {
             </View>
             <View style={styles.scoreContainer}>
                 <View style={styles.scoreItem}>
-                    <Text style={styles.text}>{game.players.player1}</Text>
-                    <Text style={styles.text}>{player1Score}</Text>
+                    <Text style={globalStyles.paragraphText}>{game.players.player1}</Text>
+                    <Text style={globalStyles.paragraphText}>{player1Score}</Text>
                 </View>
                 <View style={styles.scoreItem}>
-                    <Text style={styles.text}>{game.players.player2}</Text>
-                    <Text style={styles.text}>{player2Score}</Text>
+                    <Text style={globalStyles.paragraphText}>{game.players.player2}</Text>
+                    <Text style={globalStyles.paragraphText}>{player2Score}</Text>
                 </View>
                 {player3Score &&
                     <View style={styles.scoreItem}>
-                        <Text style={styles.text}>{game.players.player3}</Text>
-                        <Text style={styles.text}>{player3Score}</Text>
+                        <Text style={globalStyles.paragraphText}>{game.players.player3}</Text>
+                        <Text style={globalStyles.paragraphText}>{player3Score}</Text>
                     </View>
                 }
                 {player4Score &&
                     <View style={styles.scoreItem}>
-                        <Text style={styles.text}>{game.players.player4}</Text>
-                        <Text style={styles.text}>{player4Score}</Text>
+                        <Text style={globalStyles.paragraphText}>{game.players.player4}</Text>
+                        <Text style={globalStyles.paragraphText}>{player4Score}</Text>
                     </View>
                 }
             </View>
@@ -58,26 +58,17 @@ export const RunningScores = ({ game }: RunningScoreProps) => {
 
 const styles = StyleSheet.create({
     container: {
-        width: '100%',
+        minWidth: '100%',
         height: 100,
         backgroundColor: defaults.mediumGray,
-        paddingLeft: 40, //todo fix this; hacky
-        paddingRight: 40, //todo fix this; hacky
+        paddingLeft: 20,
         borderWidth: 1,
         borderTopColor: defaults.black,
         borderBottomColor: defaults.black,
     },
     title: {
-        color: defaults.black,
-        fontWeight: 'bold',
-        fontSize: defaults.titleTextSize,
+        ...globalStyles.titleText,
         marginBottom: 4,
-    },
-    text: {
-        fontSize: defaults.normalTextSize,
-        fontFamily: defaults.font,
-        color: defaults.black,
-        fontWeight: 'bold',
     },
     titleContainer: {
         marginBottom: 3,

@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Button } from './components/Button/Button';
 import { Card } from './components/Card/Card';
 import { Input } from './components/Input/Input';
+import { RoundScores } from './components/RoundScores/RoundScores';
 import { RunningScores } from './components/RunningScores/RunningScores';
 import { Game } from './data/game';
 
@@ -58,16 +59,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={{ marginTop: 10, marginBottom: 10 }}>
+        <RoundScores round={game.rounds[0]} players={game.players} />
+        <RoundScores round={game.rounds[1]} players={game.players} />
+      </View>
+      <View style={{ marginTop: 10, marginBottom: 10 }}>
         <RunningScores game={game} />
-      </View>
-      <View style={{ marginTop: 10, marginBottom: 10 }}>
-        <Button onPress={() => console.log('yo mama')} text="Dumb Button" />
-      </View>
-      <View style={{ marginTop: 10, marginBottom: 10 }}>
-        <Card date={new Date('12/14/2020')} gameName="Dumb Game" onExitPress={() => console.log('exit pressed!')} onGamePress={() => console.log('game pressed!')} />
-      </View>
-      <View style={{ marginTop: 10, marginBottom: 10 }}>
-        <Input label="Dumb Input" />
       </View>
       <StatusBar />
     </View>
