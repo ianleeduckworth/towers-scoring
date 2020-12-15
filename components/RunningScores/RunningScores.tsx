@@ -61,8 +61,8 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 100,
         backgroundColor: defaults.mediumGray,
-        paddingLeft: 20,
-        paddingRight: 20,
+        paddingLeft: 40, //todo fix this; hacky
+        paddingRight: 40, //todo fix this; hacky
         borderWidth: 1,
         borderTopColor: defaults.black,
         borderBottomColor: defaults.black,
