@@ -1,0 +1,48 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "react-native/react-native": true,
+        "jest": true
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [".js", ".jsx", ".ts", ".tsx", ".json", ".native.js"]
+        }
+      }
+    },    
+    "extends": [
+      "plugin:react/recommended",
+      "airbnb-base"
+    ],
+    "plugins": ["react", "react-native"],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+        "no-use-before-define": ["error", { "functions": true, "classes": true, "variables": false }],
+        "import/extensions": 0,
+        "import/prefer-default-export": 0,
+        "react-native/no-unused-styles": 2,
+        "react-native/split-platform-components": 2,
+        "react-native/no-inline-styles": 2,
+        "react-native/no-color-literals": 2,
+        "react-native/no-raw-text": 2,
+        "react-native/sort-styles": [
+          "error",
+          "asc",
+           {
+             "ignoreClassNames": false,
+             "ignoreStyleProperties": false
+           }
+         ]
+      }
+}

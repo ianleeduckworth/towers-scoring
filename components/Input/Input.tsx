@@ -1,11 +1,11 @@
-import * as React from 'react';
-import { 
-    NativeSyntheticEvent, 
-    StyleSheet, 
-    TextInput, 
-    TextInputFocusEventData, 
-    View, 
-    Text 
+import React from 'react';
+import {
+  NativeSyntheticEvent,
+  StyleSheet,
+  TextInput,
+  TextInputFocusEventData,
+  View,
+  Text,
 } from 'react-native';
 import { defaults } from '../../styles/global';
 
@@ -20,15 +20,14 @@ interface InputProps {
 }
 
 export const Input = ({
-    type = 'text',
-    label,
-    placeholder,
-    onChangeText,
-    value,
-    onBlur,
-    errorText,
-}: InputProps) => {
-    return (
+  type = 'text',
+  label,
+  placeholder,
+  onChangeText,
+  value,
+  onBlur,
+  errorText,
+}: InputProps) => (
         <View style={styles.container}>
             <Text style={styles.label}>{label}</Text>
             <TextInput
@@ -41,31 +40,30 @@ export const Input = ({
             />
             <Text style={styles.errorText}>{errorText}</Text>
         </View>
-    )
-}
+);
 
 const styles = StyleSheet.create({
-    container: {
-        minWidth: 360,
-    },
-    label: {
-        color: defaults.black,
-        fontWeight: 'bold',
-        fontSize: defaults.normalTextSize,
-        marginBottom: 5,
-    },
-    input: {
-        borderWidth: 1,
-        borderColor: defaults.mediumGray,
-        padding: 10,
-        fontSize: defaults.normalTextSize,
-        borderRadius: 5,
-    },
-    errorText: {
-        color: defaults.red,
-        fontWeight: 'bold',
-        fontSize: defaults.normalTextSize,
-        marginBottom: 10,
-        marginTop: 6,
-    }
-})
+  container: {
+    minWidth: 360,
+  },
+  errorText: {
+    color: defaults.red,
+    fontSize: defaults.normalTextSize,
+    fontWeight: 'bold',
+    marginBottom: 10,
+    marginTop: 6,
+  },
+  input: {
+    borderColor: defaults.mediumGray,
+    borderRadius: 5,
+    borderWidth: 1,
+    fontSize: defaults.normalTextSize,
+    padding: 10,
+  },
+  label: {
+    color: defaults.black,
+    fontSize: defaults.normalTextSize,
+    fontWeight: 'bold',
+    marginBottom: 5,
+  },
+});

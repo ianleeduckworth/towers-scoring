@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Button } from './components/Button/Button';
-import { Card } from './components/Card/Card';
-import { Input } from './components/Input/Input';
+import { StyleSheet, View } from 'react-native';
 import { RoundScores } from './components/RoundScores/RoundScores';
 import { RunningScores } from './components/RunningScores/RunningScores';
 import { Game } from './data/game';
+import { defaults } from './styles/global';
 
 export default function App() {
   const game: Game = {
@@ -33,7 +31,7 @@ export default function App() {
       player4: {
         bet: 0,
         got: 0,
-      }
+      },
     },
     {
       roundNumber: 2,
@@ -52,16 +50,18 @@ export default function App() {
       player4: {
         bet: 0,
         got: 0,
-      }
-    }]
-  }
+      },
+    }],
+  };
 
   return (
     <View style={styles.container}>
+      {/* eslint-disable-next-line react-native/no-inline-styles */}
       <View style={{ marginTop: 10, marginBottom: 10 }}>
         <RoundScores round={game.rounds[0]} players={game.players} />
         <RoundScores round={game.rounds[1]} players={game.players} />
       </View>
+      {/* eslint-disable-next-line react-native/no-inline-styles */}
       <View style={{ marginTop: 10, marginBottom: 10 }}>
         <RunningScores game={game} />
       </View>
@@ -72,9 +72,9 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
+    backgroundColor: defaults.white,
+    flex: 1,
     justifyContent: 'center',
   },
 });
