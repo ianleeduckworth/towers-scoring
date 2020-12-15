@@ -1,0 +1,970 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button renders correctly with 2 players and 1 round 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F0F0",
+      "borderBottomColor": "#000000",
+      "borderTopColor": "#000000",
+      "borderWidth": 1,
+      "height": 100,
+      "paddingLeft": 40,
+      "paddingRight": 40,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 3,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 4,
+        }
+      }
+    >
+      Scores
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player1
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        3
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player2
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        3
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`button renders correctly with 2 players and multiple rounds 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F0F0",
+      "borderBottomColor": "#000000",
+      "borderTopColor": "#000000",
+      "borderWidth": 1,
+      "height": 100,
+      "paddingLeft": 40,
+      "paddingRight": 40,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 3,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 4,
+        }
+      }
+    >
+      Scores
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player1
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        35
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player2
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        6
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player3
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        32
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player4
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        50
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`button renders correctly with 3 players and 1 round 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F0F0",
+      "borderBottomColor": "#000000",
+      "borderTopColor": "#000000",
+      "borderWidth": 1,
+      "height": 100,
+      "paddingLeft": 40,
+      "paddingRight": 40,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 3,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 4,
+        }
+      }
+    >
+      Scores
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player1
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        3
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player2
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        3
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player3
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        32
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`button renders correctly with 3 players and multiple rounds 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F0F0",
+      "borderBottomColor": "#000000",
+      "borderTopColor": "#000000",
+      "borderWidth": 1,
+      "height": 100,
+      "paddingLeft": 40,
+      "paddingRight": 40,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 3,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 4,
+        }
+      }
+    >
+      Scores
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player1
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        35
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player2
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        6
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player3
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        82
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player4
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        50
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`button renders correctly with 4 players and 1 round 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F0F0",
+      "borderBottomColor": "#000000",
+      "borderTopColor": "#000000",
+      "borderWidth": 1,
+      "height": 100,
+      "paddingLeft": 40,
+      "paddingRight": 40,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 3,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 4,
+        }
+      }
+    >
+      Scores
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player1
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        3
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player2
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        3
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player3
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        32
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player4
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        50
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`button renders correctly with 4 players and multiple rounds 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F0F0F0",
+      "borderBottomColor": "#000000",
+      "borderTopColor": "#000000",
+      "borderWidth": 1,
+      "height": 100,
+      "paddingLeft": 40,
+      "paddingRight": 40,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 3,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 4,
+        }
+      }
+    >
+      Scores
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player1
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        35
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player2
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        6
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player3
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        82
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "paddingRight": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Player4
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Roboto",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        68
+      </Text>
+    </View>
+  </View>
+</View>
+`;

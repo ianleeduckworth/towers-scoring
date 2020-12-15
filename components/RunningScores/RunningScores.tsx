@@ -2,7 +2,7 @@ import * as React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import { Game } from '../../data/game';
 import { defaults } from '../../styles/global';
-import { calculateScore } from '../../utilities/scoreCalculator';
+import { calculateScore } from '../../utilities/scoreCalculator/scoreCalculator';
 
 interface RunningScoreProps {
     game: Game;

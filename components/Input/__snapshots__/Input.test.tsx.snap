@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card base renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "minWidth": 360,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#000000",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 5,
+      }
+    }
+  >
+    Test Input
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="default"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "#F0F0F0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontSize": 18,
+        "padding": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <Text
+    style={
+      Object {
+        "color": "#B80000",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 10,
+        "marginTop": 6,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`card renders correctly with error text 1`] = `
+<View
+  style={
+    Object {
+      "minWidth": 360,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#000000",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 5,
+      }
+    }
+  >
+    Test Input
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="default"
+    placeholder="Test placeholder"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "#F0F0F0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontSize": 18,
+        "padding": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <Text
+    style={
+      Object {
+        "color": "#B80000",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 10,
+        "marginTop": 6,
+      }
+    }
+  >
+    Test error text
+  </Text>
+</View>
+`;
+
+exports[`card renders correctly with placeholder 1`] = `
+<View
+  style={
+    Object {
+      "minWidth": 360,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#000000",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 5,
+      }
+    }
+  >
+    Test Input
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="default"
+    placeholder="Test placeholder"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "#F0F0F0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontSize": 18,
+        "padding": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <Text
+    style={
+      Object {
+        "color": "#B80000",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 10,
+        "marginTop": 6,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`card renders correctly with value 1`] = `
+<View
+  style={
+    Object {
+      "minWidth": 360,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#000000",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 5,
+      }
+    }
+  >
+    Test Input
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    keyboardType="default"
+    placeholder="Test placeholder"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "#F0F0F0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontSize": 18,
+        "padding": 10,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value="Value"
+  />
+  <Text
+    style={
+      Object {
+        "color": "#B80000",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 10,
+        "marginTop": 6,
+      }
+    }
+  >
+    Test error text
+  </Text>
+</View>
+`;
