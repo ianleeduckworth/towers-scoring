@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { RunningScores } from './components/RunningScores/RunningScores';
 import { Game } from './data/game';
 
 export default function App() {
@@ -8,6 +9,8 @@ export default function App() {
     players: {
       player1: 'Ian',
       player2: 'Hope',
+      player3: 'Boop Boop',
+      player4: 'Mimi',
     },
     rounds: [{
       roundNumber: 1,
@@ -18,7 +21,15 @@ export default function App() {
       player2: {
         bet: 30,
         got: 28,
-      }
+      },
+      player3: {
+        bet: 20,
+        got: 19,
+      },
+      player4: {
+        bet: 0,
+        got: 0,
+      }      
     },
     {
       roundNumber: 2,
@@ -29,14 +40,22 @@ export default function App() {
       player2: {
         bet: 20,
         got: 20,
-      }
+      },
+      player3: {
+        bet: 25,
+        got: 26,
+      },
+      player4: {
+        bet: 0,
+        got: 0,
+      }       
     }]
   }
 
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
-
+      <RunningScores game={game} />
       <StatusBar style="auto" />
     </View>
   );
