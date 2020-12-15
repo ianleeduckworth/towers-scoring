@@ -51,4 +51,4 @@ describe('isMoonshot tests', () => {
         const result = isMoonshot({bet, got});
         expect(result).toBe(false);
     });
-})
+});
