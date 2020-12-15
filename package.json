@@ -4,7 +4,7 @@
     "start": "expo start",
     "test": "jest",
     "eslint": "eslint --ext .tsx --ext .ts ./ --fix",
-    "pre-push": "jest && eslint --ext .tsx --ext .ts ./ --fix",
+    "pre-push": "eslint --ext .tsx --ext .ts ./ --fix && jest",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
