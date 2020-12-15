@@ -1,19 +1,42 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Button } from './components/Button/Button';
-import { Card } from './components/Card/Card';
+import { Game } from './data/game';
 
 export default function App() {
+  const game: Game = {
+    players: {
+      player1: 'Ian',
+      player2: 'Hope',
+    },
+    rounds: [{
+      roundNumber: 1,
+      player1: {
+        bet: 20,
+        got: 25,
+      },
+      player2: {
+        bet: 30,
+        got: 28,
+      }
+    },
+    {
+      roundNumber: 2,
+      player1: {
+        bet: 18,
+        got: 30,
+      },
+      player2: {
+        bet: 20,
+        got: 20,
+      }
+    }]
+  }
+
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
-      <Card 
-        gameName="Test Game" 
-        date={new Date('12/22/2020')}
-        onGamePress={() => console.log('we are starting a new game')}
-        onExitPress={() => console.log('we are deleting this game')}
-      />
+
       <StatusBar style="auto" />
     </View>
   );

@@ -13,7 +13,7 @@ export const Card = ({ gameName, date, onGamePress: onGamePress, onExitPress }: 
     return (
         <View style={styles.container}>
             <TouchableOpacity style={styles.infoContainer} onPress={onGamePress}>
-                <Text style={styles.text}>{gameName}</Text>
+                <Text style={{...styles.text, marginBottom: 10}}>{gameName}</Text>
                 <Text style={styles.text}>{date.toLocaleDateString()}</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.exitContainer} onPress={onExitPress}>
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     text: {
-        ...globalStyles.titleText
+        ...globalStyles.paragraphText
     },
     exitContainer: {
         justifyContent: 'center',
