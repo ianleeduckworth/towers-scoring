@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { Round, Players, Player } from '../../data/game';
+import { Round, Players, Score } from '../../data/game';
 import { defaults, globalStyles } from '../../styles/global';
 import { calculateScore } from '../../utilities/scoreCalculator/scoreCalculator';
 
@@ -10,20 +10,20 @@ interface RoundScoresProps {
 }
 
 export const RoundScores = ({ round, players }: RoundScoresProps) => {
-  const getScore = (player: Player): number => {
-    if (player.bet === undefined || player.got === undefined) {
+  const getScore = (score: Score): number => {
+    if (score.bet === undefined || score.got === undefined) {
       return 0;
     }
 
-    return calculateScore(player.bet, player.got);
+    return calculateScore(score.bet, score.got);
   };
 
-  const getScoreStyling = (player?: Player) => {
-    if (!player) {
+  const getScoreStyling = (score?: Score) => {
+    if (!score) {
       return styles.text;
     }
 
-    const { bet, got } = player;
+    const { bet, got } = score;
     if (bet === undefined || got === undefined) {
       return styles.text;
     }

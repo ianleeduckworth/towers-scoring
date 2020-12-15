@@ -1,5 +1,3 @@
-import { Player } from '../../data/game';
-
 /**
  * Calculates a player's score based on the rules
  * @param bet the number that the player bet
@@ -7,7 +5,7 @@ import { Player } from '../../data/game';
  */
 export const calculateScore = (bet: number, got: number): number => {
   // if a moonshot occurred, 50 points are awarded
-  if (isMoonshot({ bet, got })) {
+  if (isMoonshot(bet, got)) {
     return 50;
   }
 
@@ -33,13 +31,10 @@ export const calculateScore = (bet: number, got: number): number => {
 /**
  * Determines whether or not the player earned a moonshot.
  * This occurs when a player bets 0 and gets 0
- * @param player the player to check
+ * @param score the score to check against
  */
-export const isMoonshot = (player?: Player): boolean => {
-  if (!player) {
-    return false;
-  }
-  if (player.bet === 0 && player.got === 0) {
+export const isMoonshot = (bet: number, got: number): boolean => {
+  if (bet === 0 && got === 0) {
     return true;
   }
 

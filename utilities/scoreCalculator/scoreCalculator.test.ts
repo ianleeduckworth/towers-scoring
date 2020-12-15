@@ -34,21 +34,21 @@ describe('isMoonshot tests', () => {
   it('calculates bet 0 got 0 correctly', () => {
     const bet = 0;
     const got = 0;
-    const result = isMoonshot({ bet, got });
+    const result = isMoonshot(bet, got);
     expect(result).toBe(true);
   });
 
   it('calculates bet 0 got non-0 correctly', () => {
     const bet = 0;
     const got = 1;
-    const result = isMoonshot({ bet, got });
+    const result = isMoonshot(bet, got);
     expect(result).toBe(false);
   });
 
   it('calculates bet non-0 got 0 correctly', () => {
     const bet = 1;
     const got = 0;
-    const result = isMoonshot({ bet, got });
+    const result = isMoonshot(bet, got);
     expect(result).toBe(false);
   });
 });

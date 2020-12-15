@@ -1,14 +1,14 @@
-export type Player = {
+export type Score = {
     got?: number;
     bet?: number;
 }
 
 export type Round = {
     roundNumber: number;
-    player1: Player;
-    player2: Player;
-    player3?: Player;
-    player4?: Player;
+    player1: Score;
+    player2: Score;
+    player3?: Score;
+    player4?: Score;
 }
 
 export type Players = {
