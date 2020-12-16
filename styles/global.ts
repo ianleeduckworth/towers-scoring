@@ -21,6 +21,10 @@ export const globalStyles = StyleSheet.create({
     backgroundColor: defaults.white,
     flex: 1,
     justifyContent: 'center',
+    paddingBottom: 20,
+    paddingLeft: 20,
+    paddingRight: 20,
+    paddingTop: 40,
   },
   paragraphText: {
     color: defaults.black,

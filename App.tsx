@@ -3,7 +3,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { RootDrawer } from './screens/RootStack';
 import { HomeScreen } from './screens/Home/Home';
-import { AboutScreen } from './screens/About/About';
+import { RulesScreen } from './screens/Rules/Rules';
 
 export default function App() {
   const Drawer = RootDrawer;
@@ -13,7 +13,7 @@ export default function App() {
       <NavigationContainer>
         <Drawer.Navigator initialRouteName="Home">
           <Drawer.Screen name="Home" component={HomeScreen} />
-          <Drawer.Screen name="About" component={AboutScreen} />
+          <Drawer.Screen name="Rules" component={RulesScreen} />
         </Drawer.Navigator>
       </NavigationContainer>
       <StatusBar />

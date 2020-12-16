@@ -17,6 +17,6 @@ type HomeScreenProps = {
 export const HomeScreen = ({ navigation }: HomeScreenProps) => (
   <View style={globalStyles.container}>
     <Text>Home Screen</Text>
-    <Button text="To About Screen" onPress={() => navigation.navigate('About')} />
+    <Button text="To Rules Screen" onPress={() => navigation.navigate('Rules')} />
   </View>
 );
