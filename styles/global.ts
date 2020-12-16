@@ -17,8 +17,10 @@ export const defaults = {
 
 export const globalStyles = StyleSheet.create({
   container: {
+    alignItems: 'center',
+    backgroundColor: defaults.white,
     flex: 1,
-    padding: 20,
+    justifyContent: 'center',
   },
   paragraphText: {
     color: defaults.black,
